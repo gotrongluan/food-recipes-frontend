@@ -1,0 +1,60 @@
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.layout {
+    margin-left: 270px;
+    background-color: white;
+}
+
+.sider {
+    height: 100vh;
+    overflow: auto;
+    position: fixed;
+    left: 0;
+    max-width: 270px !important;
+    width: 270px !important;
+    padding: 25px 15px 15px 15px;
+    color: white;
+    .inlineDiv {
+        background-color: transparent;
+        position: relative;
+        top: 50%;
+        transform: translate(0%, -50%);
+        .title {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .menu {
+            .menuItem {
+                i {
+                    position: relative;
+                    top: 2.5px;
+                }
+                span {
+                    font-size: 18px;
+                    padding-left: 7px;
+                }
+            }
+            :global {
+                .ant-menu-item {
+                    background-color: transparent;
+                    opacity: 0.7;
+                    span {
+                        color: yellow;
+                    }
+                }
+                .ant-menu-item-selected {
+                    font-weight: bold;
+                    opacity: 1;
+                    span {
+                        color: yellowgreen;
+                    }
+                }
+            }
+        }
+    }  
+}

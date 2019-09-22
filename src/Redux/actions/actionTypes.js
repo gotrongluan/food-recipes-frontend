@@ -1,0 +1,9 @@
+export const SAVE_LOADING = 'SAVE_LOADING';
+export const SAVE_FOODS = 'SAVE_FOODS';
+export const RESET_FOOD_PARAMS = 'RESET_FOOD_PARAMS';
+export const RESET_FOODS = 'RESET_FOODS';
+export const APPEND_FOODS = 'APPEND_FOODS';
+export const SAVE_FOOD_TYPES = 'SAVE_FOOD_TYPES';
+export const SAVE_ERROR = 'SAVE_ERROR';
+export const SAVE_CURRENT_FOOD = 'SAVE_CURRENT_FOOD';
+export const RESET_CURRENT_FOOD = 'RESET_CURRENT_FOOD';

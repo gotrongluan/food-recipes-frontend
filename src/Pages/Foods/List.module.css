@@ -1,0 +1,10 @@
+.foodsList {
+  padding: 30px;
+}
+.foodsList .foodType {
+  font-size: 30px;
+  font-weight: bold;
+}
+.foodsList .foodsRow {
+  margin-bottom: 25px;
+}
